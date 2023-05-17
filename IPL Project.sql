@@ -1,24 +1,8 @@
 
 # In this IPL database there are 9 seasons (2008 to 2016) data are Stored.
 
-use ipl;
 
-# Q 1. display the total number of matches played by each team?
-# Q 2. Display count the total wins of each team.
-# Q 3. Display the final match teams and the winning team names by each season.
-# Q 4. Display the names of all IPL trophy-winning teams and the count of their trophies.
-# Q 5. Show count of players by country.
-# Q 6. display the count of Man of the matches by player name.
-# Q 7. Find name of player who are  Man of the series, Orange cap holder, purple cap holder by each season?
-# Q 8. display which player has captained more number of matches?
-# Q 9. List of top 10 highest runscoring players in IPL
-# Q 10. List of players who scored centuries in IPL with their scores
-# Q 11. Find the list of players with most Number of sixes
-# Q 12. Display the youngest player form every country in IPL
-
-
-
-# Q 1. display the total number of matches played by each team?
+# 1st KPI : display the total number of matches played by each team?
 
 select
 Team_name
@@ -28,7 +12,7 @@ group by team_name
 order by Number_of_Matches desc;
 
 
-# Q 2. Display count the total wins of each team.
+# 2nd KPI: Display count the total wins of each team.
 
 Select Team_name,
 count(*) as Number_of_wins
@@ -37,7 +21,7 @@ group by Team_Name
 order by Number_of_wins desc;
 
 
-# Q 3. Display the final match teams and the winning team names by each season.
+3rd KPI : Display the final match teams and the winning team names by each season.
 
 with cte as
 (
@@ -59,7 +43,7 @@ from ipl.match m
  order by season_year asc;
 
 
-# Q 4. Display the names of all IPL trophy-winning teams and the count of their trophies.
+# 4th KPI : Display the names of all IPL trophy-winning teams and the count of their trophies.
 
 with cte as
 (
@@ -83,7 +67,7 @@ from ipl.match m
 
 
 
-# Q 5. Display count of players by country
+# 5th KPI :  Display count of players by country
 
 select c.Country_Name
 ,count(*) as Total_Players
@@ -93,7 +77,7 @@ order by Total_Players desc;
 
 
 
-# Q 6. display the count of Man of the matches by player name.
+# 6th KPI : display the count of Man of the matches by player name.
 
 select
 Player_Name
@@ -105,7 +89,7 @@ order by Man_of_Matches desc;
 
 
 
-# Q 7. Find name of player who are  Man of the series, Orange cap holder, purple cap holder by each season?
+# 7th KPI Find name of player who are  Man of the series, Orange cap holder, purple cap holder by each season?
 
 select 
 Season_Year
@@ -119,7 +103,7 @@ Inner Join ipl.player p3 on s.Purple_cap= p3.Player_id;
 
 
 
-# Q 8. display which player has captained more number of matches?
+# 8th KPI : display which player has captained more number of matches?
 
 select 
 Player_name
@@ -133,7 +117,7 @@ order by captained_matches desc;
 
 
 
- # 9. List of top 10 highest runscoring players in IPL
+ # (th KPI : List of top 10 highest runscoring players in IPL
  select Player_Name
  ,sum(Runs_Scored) as TotalRuns
  from ipl.ball_by_ball b inner join ipl.batsman_scored bs
@@ -146,7 +130,7 @@ order by captained_matches desc;
  
  
 
-# 10. List of players who scored centuries in IPL with their scores
+# 10th KPI : List of players who scored centuries in IPL with their scores
  select Player_Name,
 Match_Date
 ,t.Team_Name as TeamA
@@ -166,7 +150,7 @@ Match_Date
 
 
 
-# Q 11. Find the list of players with most Number of sixes
+# 11th KPI : Find the list of players with most Number of sixes
 select
 player_name
 ,count(*) as Number_of_six
@@ -181,7 +165,7 @@ player_name
  
  
  
-# Q 12. Display the youngest player form every country in IPL
+# 12th KPI : Display the youngest player form every country in IPL
 
 with ab as (
 select
