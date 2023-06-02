@@ -16,7 +16,7 @@
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/e2943c57-a0f0-4a27-93fd-be2b2d0a0c29)
 
 
-# 6th KPI- display the count of Man of the matches by player name.
+# 6th KPI - display the count of Man of the matches by player name.
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/97d28cd3-708f-4ef2-b452-2a89bd906478)
 
 
