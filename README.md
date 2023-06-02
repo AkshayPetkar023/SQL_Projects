@@ -1,7 +1,7 @@
 # My-SQL_Projects
 
  # 1st KPI- display the total number of matches played by each team?
-![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/59ebfef0-4fe8-47b6-bf85-44afa77c7f0c)
+![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/62e1b67b-2957-441c-bc44-37dd712c9ec7)
 
  # 2nd KPI- Display count the total wins of each team.
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/39edc4e5-d21c-4332-bdf1-4e4d1ee8dfc9)
@@ -13,7 +13,8 @@
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/9cd1a8a3-3487-4dd0-b7ff-0ee59181b618)
 
 # 5th KPI- Display count of players by country
-![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/25a5147d-48d5-48ef-822c-0ed3cc54837f)
+![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/e2943c57-a0f0-4a27-93fd-be2b2d0a0c29)
+
 
 # 6th KPI- display the count of Man of the matches by player name.
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/97d28cd3-708f-4ef2-b452-2a89bd906478)
