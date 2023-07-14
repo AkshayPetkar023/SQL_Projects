@@ -3,7 +3,7 @@
 # IPL Data Analysis
 
 
-  1st KPI- display the total number of matches played by each team?
+##  1st KPI- display the total number of matches played by each team?
 ![image](https://github.com/AkshayPetkar023/My-SQL_Projects/assets/102145773/62e1b67b-2957-441c-bc44-37dd712c9ec7)
 
   2nd KPI- Display count the total wins of each team.
