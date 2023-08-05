@@ -29,14 +29,12 @@ group by is_canceled;
 
 
 
-
 --4th KPI : What is the average daily rate (ADR) for each customer type?
 
 select customer_type,
 round(avg(adr),2) as Average_Daily_Rate
  from hotel_booking
  group by customer_type;
-
 
  
  
@@ -50,7 +48,6 @@ round(avg(adr),2) as Average_Daily_Rate
  order by month_no asc;
   
   
-
   
  --6th KPI : Find the percentage of cancel and non cancel reservations of Resort Hotel .
 
@@ -81,7 +78,6 @@ group by hotel,is_canceled;
 
 
 
-
 --8th KPI  reservation Status count by Month
 
 select month(try_convert(date, reservation_status_date)) as Month,
@@ -89,10 +85,10 @@ count(*) as All_Reservations,
 sum(case when is_canceled = 0 then 1 end ) as Reservation_Done,
 sum(case when is_canceled = 1 then 1 end ) as Reservation_Canceled
 from hotel_booking
+where month(try_convert(date, reservation_status_date)) is not null
 group by month(try_convert(date, reservation_status_date))
 order by month asc;
   
-
 
  
 --9th KPI  reservation cancel by market segment
