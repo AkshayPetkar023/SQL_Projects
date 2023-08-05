@@ -1,6 +1,6 @@
 # SQL_Projects
 
-# Hotel Booking Analysis
+# Project 1 : Hotel Booking Analysis
 
 ### 1st KPI : List the distinct customer types are present in the hotel booking dataset.
 ![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/036778a9-dafe-4824-bb97-ac4bd7c9cd32)
@@ -44,7 +44,7 @@
 # 
 # 
 
-# IPL Data Analysis
+# Project 2 : IPL Data Analysis
 
 
 ### 1st KPI- display the total number of matches played by each team?
