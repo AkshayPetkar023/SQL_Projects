@@ -1,4 +1,17 @@
-# My-SQL_Projects
+# SQL_Projects
+
+# Hotel Booking Analysis
+
+### 1st KPI : List the distinct customer types are present in the hotel booking dataset.
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/bac45d94-bead-4bd5-a9ab-0ce1fd4a7f19)
+
+### 2nd KPI : What is the average length of stay (in days) for customers who checked out?
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/32db332e-4510-4ba9-86e8-efdd02d994e5)
+
+
+### 3rd KPI : Find the percentage of cancel and non cancel reservations.
+![Uploading image.png…]()
+
 
 # IPL Data Analysis
 
