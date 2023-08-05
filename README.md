@@ -3,40 +3,43 @@
 # Project 1 : Hotel Booking Analysis
 
 ### 1st KPI : List the distinct customer types are present in the hotel booking dataset.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/036778a9-dafe-4824-bb97-ac4bd7c9cd32)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/22d435ae-6639-4160-ad02-83da51a3b821)
+
 
 
 ### 2nd KPI : What is the average length of stay (in days) for customers who checked out?
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/40555985-c889-4f00-8edb-e54f499d61c2)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/d4223748-30a5-47ac-b60f-a5e9ddb7a09b)
 
 
 
 ### 3rd KPI : Find the percentage of cancel and non cancel reservations.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/61f0e87d-5c82-4c9f-8a13-86e0d64408eb)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/6606e6ed-a921-4c42-81dd-a8e84e495a81)
+
 
 
 ### 4th KPI : What is the average daily rate (ADR) for each customer type?
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/5195ff0e-12a7-47db-b3f0-dc7cea3bbad1)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/a627c21f-845f-45a3-9bbf-6d7982c0c1e2)
+
 
 
 ## 5th KPI : ADR (Average daily rate) by per month.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/c22cfd90-e6d9-403c-b8f7-d96a71cd8a41)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/9da1e7a4-91ee-41f6-a9ad-83157b861415)
 
 
 ### 6th KPI : Find the percentage of cancel and non cancel reservations of Resort Hotel .
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/97edfc93-ecc3-4978-a2f9-0c766854b524)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/0971e558-a3a8-45ca-9a72-5d9fea57e3d5)
 
 
 ### 7th KPI : Find the percentage of cancel and non cancel reservations of City Hotel.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/8a4a3cd9-e0ec-4f14-98ed-babea21d7898)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/a63533bc-c136-4ece-ac10-0355fcf39033)
 
 
 ### 8th KPI : reservation Status count by Month.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/cd72c6df-29bb-4bf3-a716-e1594b228780)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/a2298c6a-7239-4521-a69d-c3788cb13268)
 
 
 ### 9th KPI : Reservation cancel by market segment.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/87ef6833-12b4-4c20-9865-01a3c91ea2f5)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/9be6c882-e1df-4910-8001-08da4f953361)
 
 
 
