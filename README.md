@@ -3,14 +3,42 @@
 # Hotel Booking Analysis
 
 ### 1st KPI : List the distinct customer types are present in the hotel booking dataset.
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/bac45d94-bead-4bd5-a9ab-0ce1fd4a7f19)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/036778a9-dafe-4824-bb97-ac4bd7c9cd32)
+
 
 ### 2nd KPI : What is the average length of stay (in days) for customers who checked out?
-![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/32db332e-4510-4ba9-86e8-efdd02d994e5)
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/40555985-c889-4f00-8edb-e54f499d61c2)
+
 
 
 ### 3rd KPI : Find the percentage of cancel and non cancel reservations.
-![Uploading image.png…]()
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/61f0e87d-5c82-4c9f-8a13-86e0d64408eb)
+
+
+### 4th KPI : What is the average daily rate (ADR) for each customer type?
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/5195ff0e-12a7-47db-b3f0-dc7cea3bbad1)
+
+
+## 5th KPI : ADR (Average daily rate) by per month.
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/c22cfd90-e6d9-403c-b8f7-d96a71cd8a41)
+
+
+### 6th KPI : Find the percentage of cancel and non cancel reservations of Resort Hotel .
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/97edfc93-ecc3-4978-a2f9-0c766854b524)
+
+
+### 7th KPI : Find the percentage of cancel and non cancel reservations of City Hotel.
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/8a4a3cd9-e0ec-4f14-98ed-babea21d7898)
+
+
+### 8th KPI : reservation Status count by Month.
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/cd72c6df-29bb-4bf3-a716-e1594b228780)
+
+
+### 9th KPI : Reservation cancel by market segment.
+![image](https://github.com/AkshayPetkar023/SQL_Projects/assets/102145773/87ef6833-12b4-4c20-9865-01a3c91ea2f5)
+
+
 
 
 # IPL Data Analysis
